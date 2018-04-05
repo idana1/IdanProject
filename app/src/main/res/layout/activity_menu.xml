@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.sudoku.menu">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#77333333"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:textSize="50dp"
+        android:text="Sudoku"
+        android:textColor="#FFFFFFFF" />
+
+    <Button
+    android:id="@+id/btnEasy"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="35dp"
+    android:textSize="25dp"
+    android:text="Easy" />
+    <Button
+        android:id="@+id/btnMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="Medium" />
+    <Button
+        android:id="@+id/btnHard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="Hard" />
+
+
+</LinearLayout>
